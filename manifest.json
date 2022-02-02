@@ -10,8 +10,8 @@
   "content_scripts": [
     {
       "matches": ["https://*.instagram.com/"],
-      "css": ["src/instagram/css/styles.css"],
-      "js": ["src/instagram/js/styles.js"]
+      "css": ["src/instagram/css/home.css"],
+      "js": ["src/instagram/js/home.js"]
     },
     {
       "matches": ["https://discord.com/"],

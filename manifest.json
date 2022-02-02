@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Social Theme",
+  "version": "0.1",
+
+  "description": "This extension will make your instagram look better",
+
+  "author": "Hardik Mirg",
+
+  "content_scripts": [
+    {
+      "matches": ["https://*.instagram.com/"],
+      "css": ["src/instagram/css/styles.css"],
+      "js": ["src/instagram/js/styles.js"]
+    },
+    {
+      "matches": ["https://discord.com/"],
+      "css": ["src/discord/css/home.css"],
+      "js": ["src/discord/js/home.js"]
+    }
+  ]
+}

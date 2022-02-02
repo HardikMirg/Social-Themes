@@ -1,0 +1,19 @@
+{
+  "name": "social-themes",
+  "version": "1.0.0",
+  "description": "This extension will make your social media sites look better",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HardikMirg/Social-Themes.git"
+  },
+  "author": "Hardik Mirg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HardikMirg/Social-Themes/issues"
+  },
+  "homepage": "https://github.com/HardikMirg/Social-Themes#readme"
+}
